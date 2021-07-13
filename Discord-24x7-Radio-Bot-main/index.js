@@ -6,7 +6,7 @@ const client = new Client();//Making a discord bot client
 client.commands = new Collection();//Making client.commands as a Discord.js Collection
 client.queue = new Map()
 client.config = {
-  prefix: process.env.PREFIX
+  prefix: (process.env.PREFIX)
 }
 
 //Loading Events
